@@ -1,0 +1,26 @@
+@extends('layouts.header')
+@section('content')
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="contact-box">
+                <a class="row" href="#">
+                    <div class="col-4">
+                        <div class="text-center">
+                            <img alt="image" class="rounded-circle m-t-xs img-fluid" src="" onerror="this.src='{{URL::asset('/images/no_image.png')}}';" >
+                            <div class="m-t-xs font-bold">Graphics designer</div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h5><strong>Name</strong></h5>
+                        <address>Position applying for:<br>
+                            Contact Number:<br>
+                            Email:<br>
+                        </address>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
